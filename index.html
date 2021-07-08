@@ -8,13 +8,17 @@
     
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
-    
+        
+        <!-- Additional CSS must be placed after Bootstrap CSS -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+        <link rel="stylesheet" href="css/styles.css" />
+
         <title>NuCamp: A Better Way To Camp</title>
     </head>
 
 <body>
 
-    <header>
+    <header class="jumbotron">
         <div class="container">
             <div class="row">
                 <div class="col">
@@ -26,9 +30,8 @@
     </header>
 
     <div class="container">
-
-        <div class="row">
-            <div class="col-sm-4 col-md-3">
+        <div class="row row-content">
+            <div class="col-sm-4 order-sm-last col-md-3">
             <h2>Discover & Review</h2>
             </div>
             <div class="col">
@@ -37,7 +40,7 @@
             </div>        
         </div>
 
-        <div class="row">
+        <div class="row row-content">
             <div class="col-sm-4 col-md-3">
                 <h2>Featured Campsites</h2>
             </div>
@@ -47,8 +50,8 @@
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-sm-4 col-md-3">
+        <div class="row row-content">
+            <div class="col-sm-4 order-sm-last col-md-3">
                 <h2>Our Community Partners</h2>
             </div>
             <div class="col">
@@ -61,9 +64,9 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-4 col-sm-2">
+                <div class="col-4 col-sm-2 offset-1">
                     <h5>Links</h5>
-                    <ul>
+                    <ul class="list-unstyled">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Sites</a></li>
